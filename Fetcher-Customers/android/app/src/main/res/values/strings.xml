@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Fetcher</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">8FTnqiSoJedm4LTv5eOMugMkJiTr_GZ4DjMof</string>
+</resources>

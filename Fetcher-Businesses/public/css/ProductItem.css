@@ -1,0 +1,200 @@
+.productContainer {
+  width: 65vw;
+  height: 15vh;
+  border: 5px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px rgba(177, 169, 162, 0.4);
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+  overflow: visible;
+  justify-content: space-between;
+}
+.addImage {
+  background-color: white;
+  width: 50%;
+  color: black;
+}
+.deleteButton:hover {
+  filter: brightness(50%);
+  cursor: pointer;
+}
+.deleteButton {
+  position: relative;
+  left: 10%;
+  top: 25%;
+  outline: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 5px solid white;
+  box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.imageContainerWithAdd {
+  flex: 1.5;
+  height: 100%;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  border-left: 5px solid white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  /* background-color: white; */
+}
+.productImageContainer {
+  flex: 1.5;
+  height: 100%;
+  border-left: 5px solid white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transition: ease 200ms;
+}
+.productImageContainer:hover {
+  cursor: pointer;
+  filter: brightness(50%);
+}
+.editPen {
+  outline: none;
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background-color: white;
+}
+.editPen:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+.itemDetailsAnEditContainer {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.infoContainers {
+  flex: 2;
+  padding-left: 10px;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.headers {
+  font-size: 16px;
+
+  font-weight: 600;
+}
+.dropDown:focus-visible {
+  background-color: wheat;
+  color: #0a214c;
+  box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.7);
+  border-color: wheat;
+}
+.dropDown:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+.costContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.costInput {
+  width: 50%;
+  height: 34%;
+}
+.inputs {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  resize: none;
+  font-size: 10;
+
+  border: 2px solid gray;
+  outline: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.dropDownItem {
+  outline: none;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  flex-direction: row;
+  flex: 1;
+  background-color: white;
+}
+.dropDownItem:hover {
+  background-color: rgb(240, 240, 255);
+}
+.dropDownMenu {
+  height: 28vh;
+  width: 20%;
+  margin-top: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 2px solid lightgray;
+  border-radius: 4px;
+}
+.dropDown {
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 10px;
+  outline: none;
+  font-size: 0.9vw;
+  align-self: center;
+  width: 7vw;
+  margin-right: 2vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 130%;
+  color: black;
+  box-shadow: 0px 0px 5px 5px rgba(177, 169, 162, 0.2);
+}
+.details {
+  font-size: 0.9vw;
+}
+.inStockBtn {
+  width: 100px;
+  outline: none;
+  color: white;
+  height: 30%;
+  border-radius: 10px;
+  font-weight: 600;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  font-size: 93%;
+  justify-content: center;
+  justify-self: center;
+}
+.inStockBtn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.taxesDropDownMenu {
+  height: fit-content;
+}
+.dropDownTax {
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+}

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3935b46f-c54a-4d3f-82ea-435ff63081d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/html/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/html/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/FirebaseFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/FirebaseFunctions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZmVBzyOBHyQ98v7YTS3h8UfaBr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\youse\WebstormProjects\Fetched\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\youse\WebstormProjects\Fetched\img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="Website.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Fetched/public/html/Website.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Website.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Fetched/html/Website.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Fetched/public/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Fetched/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.Website.html (1)" />
+        <item itemvalue="JavaScript Debug.Website.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3935b46f-c54a-4d3f-82ea-435ff63081d7" name="Default Changelist" comment="" />
+      <created>1585444124786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585444124786</updated>
+      <workItem from="1585444127425" duration="589000" />
+      <workItem from="1585495198395" duration="24584000" />
+      <workItem from="1585579905397" duration="22578000" />
+      <workItem from="1585622155765" duration="3230000" />
+      <workItem from="1585667207846" duration="7403000" />
+      <workItem from="1585678325677" duration="859000" />
+      <workItem from="1585680042892" duration="508000" />
+      <workItem from="1585680648085" duration="15118000" />
+      <workItem from="1585945261035" duration="674000" />
+      <workItem from="1585957533382" duration="13676000" />
+      <workItem from="1587856731022" duration="266000" />
+      <workItem from="1593044955121" duration="5761000" />
+      <workItem from="1593111683009" duration="5171000" />
+      <workItem from="1593117834696" duration="13368000" />
+      <workItem from="1593363616968" duration="2540000" />
+      <workItem from="1593369240296" duration="1656000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="506" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593220326499">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="506" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1593220326499" />
+    <state width="1515" height="264" key="GridCell.Tab.0.bottom" timestamp="1593369600606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="264" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593369600606" />
+    <state width="1515" height="264" key="GridCell.Tab.0.center" timestamp="1593369600606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="264" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593369600606" />
+    <state width="1515" height="264" key="GridCell.Tab.0.left" timestamp="1593369600606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="264" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593369600606" />
+    <state width="1515" height="264" key="GridCell.Tab.0.right" timestamp="1593369600606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="264" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593369600606" />
+    <state width="1515" height="264" key="GridCell.Tab.1.bottom" timestamp="1593366246118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="264" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593366246118" />
+    <state width="1515" height="264" key="GridCell.Tab.1.center" timestamp="1593366246118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="264" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593366246118" />
+    <state width="1515" height="264" key="GridCell.Tab.1.left" timestamp="1593366246118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="264" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593366246118" />
+    <state width="1515" height="264" key="GridCell.Tab.1.right" timestamp="1593366246118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="264" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593366246118" />
+    <state width="1515" height="264" key="GridCell.Tab.2.bottom" timestamp="1593366246118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="264" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593366246118" />
+    <state width="1515" height="264" key="GridCell.Tab.2.center" timestamp="1593366246118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="264" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593366246118" />
+    <state width="1515" height="264" key="GridCell.Tab.2.left" timestamp="1593366246118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="264" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593366246118" />
+    <state width="1515" height="264" key="GridCell.Tab.2.right" timestamp="1593366246118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="264" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593366246118" />
+    <state width="1515" height="264" key="GridCell.Tab.3.bottom" timestamp="1593366246119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="264" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593366246119" />
+    <state width="1515" height="264" key="GridCell.Tab.3.center" timestamp="1593366246118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="264" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1593366246118" />
+    <state width="1515" height="264" key="GridCell.Tab.3.left" timestamp="1593366246118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="264" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1593366246118" />
+    <state width="1515" height="264" key="GridCell.Tab.3.right" timestamp="1593366246119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="264" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1593366246119" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1585686778698">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585686778698" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585616946918">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585616946918" />
+  </component>
+</project>

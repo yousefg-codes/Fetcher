@@ -1,0 +1,941 @@
+.tabNavigator {
+  background-color: transparent;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  overflow: visible;
+  width: 100%;
+  top: 2vh;
+  left: 0;
+  z-index: 2;
+  justify-content: space-between;
+  position: absolute;
+  align-content: center;
+  align-items: center;
+}
+.homePageSectionTwo {
+  border: 1px solid #fff;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+  flex: 4;
+  padding-bottom: 2vh;
+}
+.homePageSectionThree {
+  flex-wrap: wrap;
+  padding-bottom: 2vh;
+  background-color: #ff993b;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  flex: 1.2;
+}
+.mainLogoImg {
+  height: 70px;
+  width: 80px;
+  background-color: white;
+  margin-left: 1%;
+  padding: 0.7%;
+  border: 5px solid rgb(290, 186, 60);
+  border-radius: 10px;
+}
+.mainLogoImg2 {
+  height: 90px;
+  width: 110px;
+}
+.appInfoSecondaryDiv {
+  display: flex;
+  flex-direction: row;
+  width: 97%;
+  height: 100%;
+  z-index: 2;
+  overflow: visible;
+  justify-content: space-evenly;
+}
+.appDownloadParentDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 70%;
+  align-items: center;
+}
+.appDownloadDiv {
+  border: 5px solid rgb(290, 186, 60);
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 500;
+  font-size: 1.3vw;
+  background-color: transparent;
+  height: 100%;
+  width: 200px;
+}
+.clickableLink:hover {
+  cursor: pointer;
+}
+.phoneImageContainer {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  overflow: visible;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 120%;
+}
+.phoneImg {
+  height: 100%;
+}
+.appInfoDownloadDiv {
+  color: black;
+
+  font-weight: 600;
+  font-size: 220%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+.androidStoreImgs {
+  width: 8vw;
+}
+.appStoreImgs {
+  width: 8vw;
+}
+.appInfoDiv {
+  height: 45%;
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  flex-direction: row;
+}
+.smallWavyDiv {
+  height: 50%;
+  background-image: url("../img/Small_Business_Open.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  filter: brightness(90%);
+  background-color: white;
+}
+.imageContainer:hover {
+  cursor: pointer;
+}
+.imageContainer {
+  display: flex;
+  width: 5vw;
+  height: 5vw;
+  margin-left: 4.5%;
+  padding-left: 0.5vh;
+  padding-right: 0.5vh;
+  align-items: center;
+  justify-content: center;
+}
+.mainPageTermsPolicies:hover {
+  cursor: pointer;
+}
+.mainPageTermsPolicies {
+  text-decoration: underline;
+  color: white;
+}
+.logInBtn {
+  color: white;
+  transition: border 200ms;
+  font-size: 1.5vw;
+  font-family: Dosis;
+  outline: none;
+  flex: 1;
+  background-color: transparent;
+  border: 0.4vh solid transparent;
+  border-radius: 0.2vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+}
+.titleIcon {
+  background-color: white;
+}
+.mainPageContainer {
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+}
+.menuContainer {
+  display: flex;
+  width: 44%;
+  align-items: center;
+  position: relative;
+  right: 7%;
+}
+.menuButtonsContainer {
+  display: flex;
+  height: 8vh;
+  align-items: center;
+  flex: 1;
+  justify-content: flex-end;
+  justify-self: flex-end;
+  flex-direction: row;
+}
+.signIn:hover {
+  cursor: pointer;
+  background-color: #ff8d22;
+  border-color: #ff8d22;
+}
+.logInBtn:hover {
+  cursor: pointer;
+  border: 0.4vh solid white;
+}
+.SignUpBtn:hover {
+  cursor: pointer;
+  background-color: #ff8d22;
+  border-color: #ff8d22;
+}
+.SignUpBtn {
+  outline: none;
+  background-color: #ff993b;
+  color: #fff;
+  font-size: 2vh;
+  border: 0.5vh solid #ff993b;
+  border-radius: 3vh;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 9vw;
+  align-self: center;
+  display: flex;
+  height: 4vh;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+}
+.tabPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  overflow: hidden;
+  height: 240vh;
+  width: 100%;
+  left: 0;
+}
+.descriptionDiv {
+  font-size: 30%;
+
+  font-weight: normal;
+  width: 70%;
+}
+.tabPageBlob {
+  background-color: #fff;
+  box-shadow: 0px 0px 8px 8px rgba(177, 169, 162, 0.2);
+  border-radius: 1vw;
+}
+.homePageSectionOne {
+  display: flex;
+  padding-bottom: 4vh;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+  background-image: linear-gradient(180deg, #ff993b 55%, #fff 45%);
+}
+.forgotPassword {
+  color: black;
+  font-size: 18px;
+  user-select: none;
+
+  align-self: center;
+}
+.forgotPassword:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.commonText {
+  color: black;
+  font-size: 1.7vh;
+  margin-bottom: 1%;
+}
+.whatIsFetcherExplanationTxt {
+  align-self: center;
+  text-align: center;
+  font-size: 1.7vw;
+  width: 90%;
+  font-weight: 600;
+}
+.doubleTextInputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.titleAndTextInputContainer {
+  width: 47%;
+}
+.textInputs:focus {
+  background-color: #ffcb9b77;
+}
+.textInputs {
+  transition: background-color 0.5s;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  resize: none;
+  font-size: 1.7vh;
+  height: 1.5vh;
+  width: 100%;
+  background-color: #fff;
+  border: 0px solid #fff;
+  border-bottom: 2px solid #ff993b;
+  outline: none;
+}
+.signIn {
+  width: 80%;
+  background-color: #ff993b;
+  color: white;
+  height: 15%;
+  outline: none;
+  margin-top: 5%;
+  font-size: 140%;
+  align-self: center;
+  border: 3px solid #ff993b;
+  border-radius: 3px;
+}
+.tabButtons:hover:enabled {
+  cursor: pointer;
+  border: 0.4vh solid white;
+  border-radius: 0.2vh;
+}
+.mainPageInfoSubText {
+  color: white;
+  font-weight: normal;
+  font-family: ProximaNova;
+  font-size: 1.5vw;
+  width: 70%;
+  text-align: center;
+  white-space: normal;
+}
+.topMainPageBlobText {
+  width: 40vw;
+  margin-top: 4vh;
+  color: white;
+  height: 40%;
+  text-align: center;
+  white-space: pre-wrap;
+  letter-spacing: 2px;
+}
+@keyframes slideUp {
+  0% {
+    margin-top: 5vh;
+  }
+  90% {
+    margin-top: 0vh;
+  }
+  100% {
+    margin-top: 0.1vh;
+  }
+}
+@keyframes slideUpMobile {
+  0% {
+    margin-top: 5vh;
+  }
+  90% {
+    margin-top: 4.1vh;
+  }
+  100% {
+    margin-top: 4vh;
+  }
+}
+
+.topRightBlobText {
+  margin-left: 4vh;
+  font-size: 2em;
+  font-family: Dosis;
+}
+.mainPageInfoText {
+  color: black;
+  overflow: hidden;
+  animation: slideUp 800ms;
+  font-weight: 600;
+  font-size: 3vw;
+  position: relative;
+  width: 60vw;
+  display: flex;
+  height: 50vh;
+  flex-direction: column;
+}
+.centerPageInfoText {
+  animation: slideUp 800ms;
+  color: black;
+  font-weight: 600;
+  font-size: 3em;
+  width: 91%;
+  display: flex;
+  height: 30vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.clickToKnowMoreDiv {
+  font-size: 55%;
+
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  height: 35%;
+  justify-content: space-evenly;
+}
+.businessSignUpInfo {
+  display: flex;
+  flex-direction: column;
+  width: 97.5%;
+  border-top-left-radius: 1.5vh;
+  border-top-right-radius: 1.5vh;
+  justify-content: space-evenly;
+  height: 12vh;
+  overflow: hidden;
+  margin-top: 0.75vh;
+  padding-bottom: 0.5%;
+  align-self: center;
+  align-items: center;
+}
+.businessSignUpInfoText {
+  color: black;
+  font-family: ProximaNova;
+  font-weight: 600;
+  font-size: 2vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.aboutUsBtn {
+  outline: none;
+  width: 40%;
+  height: 40px;
+  font-size: 65%;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: rgb(290, 186, 60);
+}
+.aboutUsBtn:hover {
+  opacity: 0.7;
+}
+.signUpDiv {
+  animation: slideUp 800ms;
+  width: 26vw;
+  height: 70vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.innerSignUpDiv {
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+  justify-content: space-around;
+  height: 85%;
+  align-self: center;
+  overflow: hidden;
+}
+.signUpInputs::-webkit-scrollbar {
+  display: none;
+}
+.toDashboard {
+  flex-direction: row;
+  width: 110%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.toDashboardChildren {
+  outline: none;
+}
+.signUpInputs {
+  overflow-y: hidden;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-evenly;
+  height: 90%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-top: 4%;
+  padding-bottom: 10%;
+  overflow-x: hidden;
+  flex-direction: column;
+}
+.valuesImgs {
+  width: 80%;
+}
+.aboutUsSectionOneBackground {
+  background-image: url("../img/Mission_Background.jpeg");
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.missionStatement {
+  color: black;
+  font-size: 50%;
+  font-weight: 600;
+}
+.valuesParentDiv {
+  display: flex;
+  width: 90%;
+  margin-top: 3%;
+  flex-direction: row;
+}
+.valuesDivs {
+  display: flex;
+  font-size: 80%;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.aboutUsSectionOne {
+  height: 160%;
+  position: relative;
+  z-index: 1;
+  color: black;
+
+  font-weight: 600;
+  font-size: 280%;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.aboutUsSectionTwo {
+  height: 80%;
+  position: relative;
+  color: black;
+
+  font-weight: 600;
+  margin-top: 0.5%;
+  font-size: 300%;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.whatWeDoText {
+  color: black;
+
+  font-size: 50%;
+  font-weight: 600;
+  text-align: center;
+  width: 50%;
+}
+.whatWeDoImg {
+  height: 70%;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+.aboutUsSectionThree {
+  height: 200%;
+  position: relative;
+  z-index: 1;
+  color: black;
+
+  font-weight: 600;
+  font-size: 280%;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.aboutUsSectionThreeBackground {
+  background-image: url("../img/MultiInfo_Background.png");
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  position: absolute;
+  z-index: -1;
+  background-position-x: center;
+  background-position-y: center;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slideShowSlider {
+  width: 100%;
+  white-space: nowrap;
+  height: 100%;
+  transition: ease 1000ms;
+}
+.slide {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  flex-direction: column;
+}
+.slideBackground {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  filter: brightness(50%);
+  height: 100%;
+}
+.slideShowBtns {
+  background-color: white;
+  transition: ease 1s;
+  width: 0.5vw;
+  height: 0.5vw;
+  border: 2px solid white;
+  border-radius: 0.5vh;
+}
+.slideShowBtns:hover {
+  cursor: pointer;
+}
+.secondarySlideContainer {
+  background-color: transparent;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.multiInfoDivsParent {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  height: 60vh;
+  margin-top: 4vh;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+.multiInfoDivs {
+  height: 100%;
+  width: 27.5vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  font-family: Dosis;
+  font-weight: 700;
+  font-size: 2.3vw;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.multiInfoImgs {
+  width: 100%;
+}
+.aboutUsAppExplanation {
+  font-size: 50%;
+  font-weight: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  text-align: center;
+}
+.aboutUsAppDownload {
+  border: none;
+  width: 25vh;
+  border-radius: 0;
+}
+.socialMediaParent {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  color: white;
+  font-weight: 600;
+  font-size: 80%;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: transparent;
+}
+.socialMediaLinksParent {
+  width: 100%;
+  height: 25%;
+  justify-self: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.socialMediaLink {
+  width: fit-content;
+  display: block;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 0px;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  font-weight: normal;
+  align-content: center;
+}
+.socialMediaLink:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.socialMediaImgs {
+  font-size: 3.5vw;
+}
+.contactUsParent {
+  height: 65%;
+  display: flex;
+  width: 100%;
+  background-color: white;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contactUsBasicInputsParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 10%;
+}
+.contactUsBasicInputs {
+  height: 70%;
+  width: 45%;
+}
+.backArrowForgotPassword {
+  justify-self: flex-start;
+  outline: none;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+.backArrowForgotPassword:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.contactUsBodyInput {
+  width: 95%;
+
+  height: 50%;
+  resize: none;
+}
+.emailInfoDiv {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.sendEmailBtn {
+  outline: none;
+  border: 0;
+  background: transparent;
+  border-radius: 0;
+}
+.sendEmailBtnImg {
+  width: 80%;
+}
+.sendEmailBtn:hover:enabled {
+  opacity: 0.7;
+}
+.emailInfoText {
+  color: black;
+  font-size: 40%;
+  font-weight: 600;
+}
+.tabButtons {
+  transition: border 200ms;
+  background-color: transparent;
+  font-size: 1.5vw;
+  font-family: Dosis;
+  color: white;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  border: 0.4vh solid transparent;
+  border-radius: 0.2vh;
+  outline: none;
+}
+.img {
+  display: block;
+  align-content: center;
+  align-items: center;
+  width: 4vw;
+}
+.productsNeeded {
+  color: black;
+  font-size: 34px;
+  align-self: center;
+}
+.driversCustomersSoon {
+  display: flex;
+  flex-direction: row;
+}
+.contactText {
+  color: white;
+  align-self: flex-end;
+  position: absolute;
+  bottom: 0;
+  font-size: 1vw;
+  right: 7.5vw;
+}
+.endOfPageTxt {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: 1vw;
+  justify-content: space-evenly;
+}
+.termsPoliciesContainer {
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.comingSoonDownload {
+  height: 40%;
+  align-self: flex-end;
+}
+.topPageSignUpAndSlideContainer {
+  display: flex;
+  width: 100vw;
+  overflow-y: visible;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+.welcomeText {
+  color: #fff;
+  width: 120vh;
+  font-size: 3vw;
+  margin-top: 15vh;
+  margin-left: 5vw;
+  font-family: CooperBT;
+}
+.welcomeSubText {
+  color: #fff;
+  font-family: Dosis;
+  font-size: 2vw;
+}
+.comingSoonDownlaodLinks {
+  width: 10vw;
+}
+@media (max-width: 1000px) and (orientation: portrait) {
+  .tabButtons {
+    font-size: 3vw;
+  }
+  .logInBtn {
+    font-size: 3vw;
+  }
+  .menuContainer {
+    width: 75%;
+  }
+  .imageContainer {
+    height: 12vw;
+    width: 12vw;
+  }
+  .img {
+    width: 8vw;
+  }
+  .tabPageBlob {
+    border-radius: 4vw;
+  }
+  .socialMediaImgs {
+    font-size: 6vw;
+  }
+  .contactText {
+    font-size: 2vw;
+    bottom: -3vw;
+    right: 33.5vw;
+  }
+  .endOfPageTxt {
+    font-size: 2vw;
+  }
+  .termsPoliciesContainer {
+    margin-right: 5vw;
+    width: 20vw;
+  }
+  .mainPageInfoText {
+    width: 91vw;
+    font-size: 6vw;
+  }
+  .signUpDiv {
+    width: 91vw;
+    margin-top: 4vh;
+    animation: slideUpMobile 800ms;
+  }
+  .SignUpBtn {
+    width: 30vw;
+  }
+  .welcomeText {
+    font-size: 6vw;
+    width: 80vw;
+  }
+  .welcomeSubText {
+    font-size: 4vw;
+  }
+  .topMainPageBlobText {
+    width: 80vw;
+  }
+  .slideShowBtns {
+    width: 1.2vw;
+    height: 1.2vw;
+  }
+  .whatIsFetcherExplanationTxt {
+    font-size: 3vw;
+  }
+  .multiInfoDivsParent {
+    height: fit-content;
+    margin-top: 0;
+  }
+  .multiInfoDivs {
+    width: 91vw;
+    height: 50vh;
+    margin-top: 4vh;
+    font-size: 6vw;
+  }
+  .tabPage {
+    height: 370vh;
+  }
+  .appDownloadDiv {
+    font-size: 3vw;
+  }
+  .androidStoreImgs {
+    width: 20vw;
+  }
+  .appStoreImgs {
+    width: 20vw;
+  }
+  .businessSignUpInfoText {
+    font-size: 6vw;
+  }
+  .mainPageInfoSubText {
+    font-size: 3vw;
+  }
+  .driversCustomersSoon {
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-between;
+  }
+  .comingSoonDownload {
+    align-self: flex-start;
+    width: 25vw;
+    height: 10vh;
+    margin-left: 5vw;
+  }
+  .comingSoonDownlaodLinks {
+    width: 25vw;
+  }
+}

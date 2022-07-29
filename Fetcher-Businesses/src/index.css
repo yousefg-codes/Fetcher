@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vw;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: Dosis;
+  src: url(./fonts/Dosis-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "ProximaNova";
+  src: url(./fonts/ProximaNova-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: CooperBT;
+  src: url(./fonts/CooperLtBTBold.ttf) format("truetype");
+}
+* {
+  font-family: ProximaNova;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

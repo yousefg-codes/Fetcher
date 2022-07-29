@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <resources>
+     <string name="app_name">Fetcher Drivers</string>
+     <string moduleConfig="true" name="CodePushDeploymentKey">mMgtm_ky2LXv5jDzHYqLHtFDt9JJ805</string>
+ </resources>

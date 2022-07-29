@@ -1,0 +1,526 @@
+/*Main Settings Screen styles below --> */
+.settingsNavContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.settingsTitle {
+  font-weight: 600;
+  font-size: 400%;
+  padding-left: 10%;
+}
+.settingsNavBtn:hover {
+  filter: brightness(70%);
+  cursor: pointer;
+}
+.settingsNavBtn {
+  background-color: white;
+  outline: none;
+  flex: 1;
+  color: black;
+  transition: ease 200ms;
+  font-weight: 600;
+  font-size: 90%;
+  border: none;
+  border-right: 0.5px solid white;
+  border-left: 0.5px solid white;
+  border-top: 0.5px solid white;
+  /* border: 1px solid lightgray; */
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  align-items: center;
+  padding-left: 8%;
+}
+.settingsDisplayedPage::-webkit-scrollbar {
+  display: none;
+}
+.settingsDisplayedPage {
+  display: none;
+  height: 100%;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  overflow-y: scroll;
+  background-color: transparent;
+}
+.settingsScreenBtnsContainer {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.settingsScreenBtn {
+  transition: ease 200ms;
+  display: flex;
+  flex-direction: row;
+  font-size: 150%;
+  width: 20%;
+  padding-left: 10px;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  outline: none;
+  background: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.settingsScreenBtn:hover {
+  filter: brightness(70%);
+  cursor: pointer;
+}
+.settingsScreenBtnIcon {
+  margin-right: 5%;
+}
+.pastEarningContainer:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+}
+.pastEarningContainer {
+  width: 20vh;
+  height: 20vh;
+  transition: ease 200ms;
+  display: flex;
+  background-color: white;
+  justify-content: space-evenly;
+  margin-left: 4vh;
+  flex-direction: column;
+  box-shadow: 0px 0px 6px 6px rgba(177, 169, 162, 0.2);
+  border: 0.4vh solid white;
+  border-radius: 2vh;
+}
+.pastEarningText {
+  margin-left: 1.5vh;
+}
+.settingsScreens {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+  padding-bottom: 5%;
+}
+.settingsScreens::-webkit-scrollbar {
+  display: none;
+}
+.settingsScreensTitle {
+  font-size: 300%;
+  color: #ff993b;
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+  margin-top: 5%;
+  width: fit-content;
+  justify-content: space-between;
+  margin-left: 5%;
+  flex-direction: row;
+}
+.settingsScreensTitleIcon {
+  margin-right: 10px;
+}
+.settingsBackBtn {
+  background: transparent;
+  outline: none;
+  border: 1px solid transparent;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 2%;
+  font-size: 350%;
+  left: 2%;
+}
+.settingsBackBtn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+/*Account Overview Screen Styles --> */
+.accountInfoOverview {
+  width: 90%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+
+  font-weight: 600;
+  justify-content: space-evenly;
+  height: 40%;
+}
+.underlinedAccountInfo {
+  border-bottom: 1px solid #707070;
+  margin-bottom: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.accountOverviewInfoTitle {
+  width: 20%;
+}
+.indentedAccountOverviewInfo {
+  margin-left: 50%;
+}
+.editProfileBtn {
+  background-color: white;
+  border: 2px solid #ff993b;
+  border-radius: 30px;
+  height: 5%;
+  width: 10%;
+  font-weight: 600;
+  color: #707070;
+  font-size: 100%;
+  margin-left: 5%;
+  outline: none;
+}
+.editProfileBtn:hover {
+  background-color: #ff993b;
+  color: white;
+  cursor: pointer;
+}
+.accountOverviewImage {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30%;
+  width: 50%;
+  align-self: center;
+  background-position: center;
+}
+/* Edit Account Screen styles below --> */
+.logoContainer {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.7);
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 10px;
+  align-self: center;
+}
+.changeLogoText {
+  position: absolute;
+  bottom: 30%;
+  left: 20%;
+  width: 60%;
+  display: none;
+  text-align: center;
+  font-weight: 600;
+  font-size: 160%;
+  color: white;
+  pointer-events: none;
+  z-index: 10;
+}
+
+#businessLogo:hover + #businessLogoText {
+  display: block;
+  color: white;
+  cursor: auto;
+}
+.halfWidthEditContainer {
+  display: flex;
+  flex-direction: column;
+  color: #707070;
+  width: 45%;
+  height: 110%;
+  font-size: 90%;
+}
+.editAccountPassContainer {
+  position: absolute;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 250%;
+  top: 35%;
+  left: 35%;
+  width: 25%;
+  height: 30%;
+}
+.editAccountPassInputContainer {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.editAccountPassInput {
+  width: 75%;
+  border: 1px solid #707070;
+  padding: 2.5px;
+  border-radius: 3px;
+  font-size: 50%;
+  height: 30px;
+  font-weight: normal;
+}
+.editAccountPassNextBtn {
+  outline: none;
+  background: #ff993b;
+  border: 1px solid #ff993b;
+  border-radius: 10px;
+  padding: 10px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.editAccountPassNextBtn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.businessLogoSecondaryContainer {
+  height: 100%;
+}
+.businessLogoSecondaryContainer:hover {
+  filter: brightness(50%);
+  cursor: pointer;
+}
+.editInfoContainer {
+  display: flex;
+  width: 55%;
+  align-self: center;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 5px;
+  flex-direction: column;
+
+  font-size: 100%;
+  margin-top: 2%;
+}
+.editAccountLongInputs {
+  width: 100%-10px;
+  margin-bottom: 5px;
+  border: 1px solid #707070;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 100%;
+  height: 30px;
+}
+.editAccountShortInputs {
+  width: 100%;
+  margin-bottom: 5px;
+  border: 1px solid #707070;
+  border-radius: 3px;
+  font-size: 110%;
+  padding: 5px;
+  height: 30px;
+}
+.editAccountShortInputsContainer {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  width: 100%-20px;
+  padding-bottom: 5px;
+}
+.editAccountBtnsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: center;
+  width: 55%;
+  margin-top: 5%;
+  height: 5%;
+}
+.editAccountCancel {
+  outline: none;
+  background: transparent;
+  border: 1px solid transparent;
+
+  font-size: 100%;
+  border-bottom: 1px solid #707070;
+  color: #707070;
+  width: 10%;
+}
+.editAccountSave {
+  outline: none;
+  border: 1px solid #ff993b;
+  background-color: #ff993b;
+  color: white;
+  border-radius: 30px;
+  width: 20%;
+
+  font-size: 100%;
+  font-weight: 600;
+  height: 35px;
+  margin-left: 10px;
+}
+.editAccountSave:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.editAccountCancel:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+/*Passwords Screen style below --> */
+.sendEmailToResetPassBtn {
+  width: 17.5%;
+  height: 30%;
+  border: 1px solid #ff993b;
+  border-radius: 30px;
+  color: white;
+  font-weight: 600;
+  font-size: 100%;
+  background-color: #ff993b;
+  align-self: center;
+  outline: none;
+  text-align: center;
+}
+.sendEmailToResetPassContainer {
+  width: 80%;
+  margin-left: 5.5%;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 100%;
+  justify-content: space-evenly;
+}
+.sendEmailToResetPassBtn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.weWillSendEmailTxt {
+  font-weight: 600;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  margin-left: 5.5%;
+}
+/*Terms And Policies Screen -->*/
+.termsAndPoliciesNavButtons {
+  height: 60%;
+  width: 35%;
+  outline: none;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  font-size: 250%;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.termsAndPoliciesNavButtons:hover {
+  filter: brightness(70%);
+  cursor: pointer;
+}
+.policyContainer {
+  background-image: -webkit-linear-gradient(90deg, #fff 65%, #ff993b 35%);
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+.policySecondaryContainer {
+  width: 75vw;
+  font-size: 1vw;
+  height: 610vh;
+  padding: 5vh;
+  font-weight: normal;
+}
+.privacyPolicyHeight {
+  height: 565vh;
+}
+.policySecondaryContainer::-webkit-scrollbar {
+  display: none;
+}
+.taxCenterPageContainer {
+  align-self: center;
+  border: 2px solid black;
+  width: 70vw;
+  overflow-y: scroll;
+  justify-content: space-evenly;
+  height: 80vh;
+}
+.taxCategoryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 3vh;
+}
+.taxTitle {
+  font-size: 2.5vw;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  padding-left: 2vh;
+  font-weight: bold;
+  width: 100%-2vh;
+  background-color: #fff6ef;
+}
+.taxContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: 1.3vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.addEditTaxBtn:hover {
+  background-color: #ff8d22;
+  cursor: pointer;
+  border-color: #ff8d22;
+}
+.addEditTaxBtn {
+  outline: none;
+  margin-right: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff993b;
+  color: white;
+  align-self: flex-end;
+  width: 8vw;
+  font-size: 1vw;
+  height: 4vh;
+  border: 0.3vw solid #ff993b;
+  border-radius: 1vw;
+}
+.addTaxBtn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.addTaxBtn {
+  outline: none;
+  background-color: transparent;
+  color: black;
+  font-size: 1.5vw;
+  width: fit-content;
+  align-self: center;
+  border-width: 0;
+  align-items: center;
+  justify-content: center;
+}
+.removeTaxBtn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.removeTaxBtn {
+  outline: none;
+  border-width: 0;
+  background-color: transparent;
+  font-size: 2vw;
+  color: red;
+  align-self: center;
+  justify-self: flex-end;
+}
+.taxInputs {
+  width: fit-content;
+  font-size: 1vw;
+}
+.taxInfoContainer {
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}

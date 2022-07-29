@@ -1,0 +1,737 @@
+/*Universal Dashboard Screen styles below --> */
+.sideTabNavigator {
+  display: flex;
+  height: 100%;
+  width: 5%;
+  overflow: no-display;
+  align-items: flex-end;
+  right: 0;
+  top: 0;
+  position: fixed;
+  flex-direction: column;
+  align-self: flex-end;
+  background-color: black;
+}
+.unVerifiedModal {
+  width: 25%;
+  background-color: white;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  height: 20%;
+  outline: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  left: 37.5%;
+  align-items: center;
+  justify-content: space-evenly;
+  top: 40%;
+
+  font-size: 140%;
+  font-weight: 600;
+  position: absolute;
+  flex-direction: column;
+}
+.unVerifiedModalTxt {
+  width: 70%;
+  height: 40%;
+  font-size: 70%;
+  text-align: center;
+  font-weight: normal;
+}
+.unVerifiedModalOkBtn {
+  background-color: green;
+  border: 1px solid green;
+  width: 50%;
+  height: 30px;
+  color: white;
+  outline: none;
+  border-radius: 10px;
+}
+.unVerifiedModalOkBtn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.isOpenParentDiv {
+  position: absolute;
+  top: 2%;
+  z-index: 3;
+  right: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 100%;
+  font-weight: 600;
+}
+.isOpenToggleBtn {
+  padding: 10px;
+  width: 70vw;
+  height: 8vh;
+  border: 1px solid red;
+  font-weight: 600;
+  color: white;
+  font-size: 1.5vw;
+  outline: none;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.isOpenToggleBtn:hover:enabled {
+  opacity: 0.7;
+  cursor: pointer;
+}
+/*Products Screen Styles --> */
+.categoriesSearch {
+  margin-left: 20px;
+  display: none;
+}
+.costSearch {
+  width: 130px;
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+  height: 40px;
+  border-radius: 10px;
+  border: 5px solid white;
+  background-color: white;
+  margin-left: 20px;
+}
+.secondaryCostSearch {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+}
+.recentOrdersContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 45%;
+}
+.pastOrdersContainer {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.infographicDisplay {
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  height: 400px;
+}
+.filterContainer {
+  display: flex;
+  cursor: pointer;
+  width: 100%;
+  outline: none;
+  border: 5px solid white;
+  border-radius: 10px;
+  height: 45%;
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.editAllButton:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.editAllButton {
+  border: 5px solid black;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+
+  font-weight: 600;
+  background-color: black;
+  margin-left: 20px;
+  padding-top: 0;
+  outline: none;
+  padding-bottom: 0;
+  width: 7%;
+  height: 30px;
+}
+#busine .filterTotalContainer {
+  display: flex;
+  margin-left: 3%;
+  flex-direction: column;
+  width: 7%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.noProductsText {
+  font-size: 20px;
+
+  font-weight: 600;
+  color: gray;
+}
+.filterText {
+  font-size: 18px;
+  cursor: pointer;
+
+  font-weight: 600;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.topSearchBar {
+  width: 100%;
+  background-color: black;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.filterOptionsContainer {
+  height: 50px;
+  width: 100px;
+  display: flex;
+  margin-top: 0.5%;
+  border: 4px solid white;
+  box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  background-color: white;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.filterOption:hover {
+  filter: brightness(50%);
+}
+.filterOption {
+  display: flex;
+  flex: 1;
+  color: black;
+  text-decoration: none;
+  width: 100%;
+  background-color: white;
+  outline: none;
+  border: 0px;
+  border-bottom: 3px;
+  border-bottom-color: gray;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.filterContainer:hover {
+  opacity: 0.7;
+}
+.searchIconContainer:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.accountButtonsWideContainer {
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 2%;
+  flex-direction: column;
+}
+.twoButtonContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.searchIconContainer {
+  height: 35px;
+  width: 35px;
+  border: 1px solid black;
+  border-radius: 18px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchIconInputContainer {
+  width: 30%;
+  margin-left: 3%;
+  background-color: white;
+  height: 50%;
+  border: 5px solid white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.editAllAndAddContainer {
+  width: 100%;
+  height: 100px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.earningsThisWeekText {
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+}
+
+.accountButtons {
+  width: 600px;
+  height: 70px;
+  border: 5px solid black;
+  background-color: black;
+  outline: none;
+  border-radius: 20px;
+}
+
+.accountButtons:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.businessLogoSecondaryContainer {
+  width: 92%;
+  display: flex;
+  height: 94%;
+  flex: 1;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 5px solid white;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.graph {
+  display: flex;
+  height: 390px;
+  width: 880px;
+  align-self: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.searchInput {
+  outline: none;
+  width: 80%;
+  height: 65%;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 6px;
+
+  font-size: 14px;
+}
+.directGraphContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.graphContainer {
+  height: 80%;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.accountBackgroundContainer {
+  width: 100%;
+  height: 45%;
+  filter: brightness(50%);
+  background-size: cover;
+  background-position-y: center;
+  background-image: url("../img/nature-background.jpg");
+}
+.dashboardNavSeparators {
+  width: 80%;
+  align-self: center;
+  border: 0.2px solid #ff993b;
+  border-radius: 5px;
+  height: 0.2vh;
+  background-color: #ff993b;
+}
+.displayScreen {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+.logOutBtn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.logOutBtn {
+  position: absolute;
+  outline: none;
+  background-color: red;
+  border: 5px solid red;
+  border-radius: 10px;
+  display: block;
+  width: 7.5%;
+  top: 90%;
+  right: 5%;
+  color: white;
+  font-size: 100%;
+
+  font-weight: 600;
+  height: 5%;
+}
+.showMoreProducts:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.showMoreProducts {
+  margin-top: 2%;
+  color: grey;
+
+  font-size: 14px;
+  align-self: center;
+}
+.showMoreProductsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.btnTxt {
+  font-family: Dosis;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 1.5vh;
+  margin-top: 1vh;
+}
+.tabBtns {
+  transition: ease 200ms;
+  display: flex;
+  font-size: 2vh;
+  align-items: center;
+  color: white;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  padding-bottom: 8%;
+  padding-top: 8%;
+}
+.addProductBtn {
+  color: black;
+  margin-right: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 10px;
+  background-color: white;
+  width: 3%;
+  height: 55px;
+}
+.navigationSideOrangeBar {
+  width: 10px;
+  height: 100%;
+  align-self: flex-start;
+  background-color: #ff993b;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  right: 0;
+}
+.page {
+  display: flex;
+  overflow-x: hidden;
+  flex: 1;
+  background-color: white;
+  overflow-y: scroll;
+  flex-direction: column;
+}
+.tabBtns:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+/*InComingOrdersScreen styles below --> */
+.inComingOrdersScreenTitle {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  color: black;
+  font-weight: 600;
+
+  font-size: 350%;
+  margin-top: 2%;
+  margin-left: 2%;
+  align-items: center;
+}
+.inComingOrdersPrimaryContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin-left: 2%;
+  justify-content: space-evenly;
+  font-size: 200%;
+  font-weight: 600;
+}
+.inComingOrdersSecondaryContainer::-webkit-scrollbar {
+  display: none;
+}
+.inComingOrdersSecondaryContainer {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  height: 90%;
+  padding-top: 1%;
+  flex-wrap: wrap;
+  padding-bottom: 1%;
+}
+.inComingOrderModal {
+  width: 35%;
+  background-color: white;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  height: 40%;
+  outline: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  left: 32.5%;
+  top: 20%;
+  position: absolute;
+  flex-direction: column;
+}
+.inComingOrdersModalTitleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  align-self: center;
+
+  font-size: 120%;
+  font-weight: 600;
+}
+.inComingOrdersModalTitleXBtn {
+  background: transparent;
+  outline: none;
+  border: 1px solid transparent;
+}
+.inComingOrdersModalTitleXBtn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.inComingOrdersModalBasicInfoPrimaryContainer {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  align-self: center;
+  height: 40%;
+}
+.inComingOrdersModalBasicInfoSecondaryContainer {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.inComingOrdersModalBasicInfoBtnContainer {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.inComingOrdersModalBasicInfoBtn {
+  width: 95%;
+  height: 20%;
+  outline: none;
+  color: white;
+  font-size: 100%;
+  font-weight: 600;
+  background-color: #ff993b;
+  border: 1px solid #ff993b;
+  border-radius: 30px;
+}
+.inComingOrdersModalBasicInfoBtn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.inComingOrdersModalDetailedInfoContainer {
+  display: flex;
+  width: 97.5%;
+  align-self: flex-end;
+  flex-direction: row;
+  height: 37%;
+  padding-bottom: 5px;
+  overflow-x: scroll;
+}
+.inComingOrdersModalDetailedInfoContainer::-webkit-scrollbar {
+  display: none;
+}
+.inComingOrdersModalDetailedInfo {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  height: 100%;
+  margin-right: 10px;
+  border: 1px solid #707070;
+  align-items: center;
+  font-weight: 600;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+.inComingOrdersModalMapContainer {
+  width: 75%;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  border: 5px solid black;
+  border-radius: 10px;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 8px;
+  align-self: center;
+  justify-content: center;
+}
+/*InComingOrderComponent styles below --> */
+.inComingOrderComponentContainer {
+  width: 300px;
+  height: 45vh;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.basicInComingOrderInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90%;
+  font-weight: normal;
+  font-size: 70%;
+  text-align: center;
+  width: 100%;
+}
+.inComingOrderMap {
+  height: 50%;
+  width: 100%;
+}
+.inComingOrderDetailsLink {
+  padding: 0;
+  color: blue;
+  text-decoration: underline;
+}
+.inComingOrderDetailsLink:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+/* The following are the Business Hours Component Styles*/
+.businessHoursContainer {
+  transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  -o-transform-origin: top left;
+  transform: scale(0.8, 0.8);
+  -ms-transform: scale(0.8, 0.8);
+  -webkit-transform: scale(0.8, 0.8);
+  -o-transform: scale(0.8, 0.8);
+  -moz-transform: scale(0.8, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* padding-left: 3vh;
+  padding-top: 2vh; */
+}
+.businessHoursPerDayContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2vh;
+  width: 97%;
+  justify-content: space-between;
+}
+.chooseTimeContainer {
+  position: relative;
+  background-color: transparent;
+  box-sizing: padding-box;
+}
+.chosenTimeBtn:hover:enabled {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.chosenTimeBtn {
+  transition: ease 200ms;
+  background-color: lightgray;
+  border: 1vh solid lightgray;
+  outline: none;
+  border-radius: 1vh;
+  font-size: 2.5vh;
+  width: 9vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.chooseTimeBtn:hover:enabled {
+  cursor: pointer;
+  filter: brightness(109%);
+}
+.chooseTimeBtn:disabled {
+  opacity: 0.6;
+}
+.chooseTimeBtn {
+  transition: ease 200ms;
+  background-color: gray;
+  padding: 0.5vh;
+  width: 100%;
+  color: white;
+  outline: none;
+  border: none;
+  height: 5vh;
+  font-size: 1.3vw;
+  box-sizing: border-box;
+}
+.chooseTimeDropdown::-webkit-scrollbar {
+  display: none;
+}
+.chooseTimeDropdown {
+  display: none;
+  height: 25vh;
+  z-index: 4;
+  margin-top: 1vh;
+  width: 8vw;
+  background-color: gray;
+  overflow-y: scroll;
+  border: 1vh solid gray;
+  border-radius: 1vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+}
+.addTimeIntervalBtn:hover:enabled {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.addTimeIntervalBtn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 2vw;
+  color: #0492c2;
+}
+.closedAllDayCheckBox {
+  height: 1.5vw;
+  width: 1.5vw;
+}
